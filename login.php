@@ -451,12 +451,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <strong>Admin:</strong> admin / Admin12345
                 </div>
                 <div class="demo-item">
-                    <strong>Staff:</strong> staff1 / password123
+                    <strong>Staff:</strong> staff1 / 123456789
                 </div>
                 <div class="demo-item" style="font-size: 0.85rem; color: #94a3b8;">
                     <i class="fas fa-exclamation-triangle"></i> Change passwords in production
                 </div>
             </div>
+            <a href="index.php" class="btn-login">GO BACK</a>            
         </div>
     </div>
 </div>
