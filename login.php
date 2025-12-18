@@ -448,7 +448,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <i class="fas fa-info-circle"></i> Demo Credentials
                 </div>
                 <div class="demo-item">
-                    <strong>Admin:</strong> admin / password123
+                    <strong>Admin:</strong> admin / Admin12345
                 </div>
                 <div class="demo-item">
                     <strong>Staff:</strong> staff1 / password123
