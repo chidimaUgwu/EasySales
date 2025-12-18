@@ -29,7 +29,7 @@ $admin_root = dirname(dirname($script_name)); // Goes up two levels from /admin/
 function isActive($type, $value = '') {
     global $current_page, $current_uri;
     
-    $admin_base_path = '/~chidima.ugwu/EasySalles/admin/';
+    $admin_base_path = '/~chidima.ugwu/EasySales/admin/';
     
     switch($type) {
         case 'dashboard':
@@ -62,12 +62,12 @@ function isActive($type, $value = '') {
 
 // Function to get correct URL for navigation - SIMPLIFIED
 function getAdminURL($path = '') {
-    $base_path = '/~chidima.ugwu/EasySalles/admin/';
+    $base_path = '/~chidima.ugwu/EasySales/admin/';
     
     // If path starts with ../, remove it and go to parent
     if (strpos($path, '../') === 0) {
         $path = substr($path, 3);
-        $base_path = '/~chidima.ugwu/EasySalles/';
+        $base_path = '/~chidima.ugwu/EasySales/';
     }
     
     // Clean the path to avoid double slashes
