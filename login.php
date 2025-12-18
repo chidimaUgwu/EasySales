@@ -456,9 +456,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="demo-item" style="font-size: 0.85rem; color: #94a3b8;">
                     <i class="fas fa-exclamation-triangle"></i> Change passwords in production
                 </div>
-            </div>
-            <a href="index.php" class="btn-login">GO BACK</a>            
-        </div>
+                <div>
+                               
+                </div>
+            <div><a href="index.php" class="btn-login">GO BACK</a> </div>
     </div>
 </div>
 
