@@ -2,9 +2,9 @@
 // config/db.php
 
 $host = 'localhost';
-$dbname = 'webtech_2025A_chidima_ugwu'; // Change this
-$username = 'chidima.ugwu'; // Change this
-$password = '66071288'; // Change this
+$dbname = ' '; // Change this
+$username = ' '; // Change this
+$password = ' '; // Change this
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
